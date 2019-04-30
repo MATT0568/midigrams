@@ -21,7 +21,6 @@ router
 
 router
   .route("/midi/")
-  .post(midiController.midi)
-  .put(midiController.saveMidi)
+  .get(midiController.midi)
 
 module.exports = router;

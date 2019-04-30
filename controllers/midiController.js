@@ -7,14 +7,6 @@ var MidiPlayer = require('midi-player-js');
 
 // Defining methods for the midiController
 module.exports = {
-  saveMidi: function (req, res) {
-    db.Song
-      .create(req.body)
-      .then(dbModel => {
-        res.json(dbModel)
-      })
-      .catch(err => res.status(422).json(err));
-  },
   midi: function (req, res) {
     var trackShell = {
       header: {
@@ -104,21 +96,5 @@ module.exports = {
       track: trackShell,
       probs: probs
     });
-  },
-  play: function (req, res) {
-    // fs.writeFileSync('newMidi.mid', newMidi, 'binary');
-    // Initialize player and register event handler
-    var Player = new MidiPlayer.Player(function (event) {
-      console.log(event);
-    });
-    console.log("HELLLOOOOOOO");
-    // Load a MIDI file
-    try {
-    Player.loadFile(req.body.track);
-    Player.play();
-    }
-    catch (error) {
-      console.log(error);
-    }
   }
 };

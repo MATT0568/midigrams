@@ -21,12 +21,6 @@ export default {
     return axios.post("/api/login", UserData);
   },
   midi: function () {
-    return axios.post("/api/midi");
-  },
-  play: function () {
-    return axios.put("/api/midi");
-  },
-  saveMidi: function (MidiData) {
-    return axios.put("/api/midi", MidiData);
+    return axios.get("/api/midi");
   }
 };
