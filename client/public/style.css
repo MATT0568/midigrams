@@ -1,0 +1,238 @@
+.description {
+    display: inline-block;
+    width: 75%;
+    @media (max-width: 620px) {
+        width: 100%;
+    }
+}
+
+.image {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    height: 200px;
+    margin-right: 40px;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+}
+
+.delete-btn {
+    color: black;
+    background-color: red;
+    box-shadow: 2px 1px #888888;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.view-btn {
+    color: black;
+    background-color: blue;
+    box-shadow: 2px 1px #888888;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.search-btn {
+    color: black;
+    background-color: green;
+    box-shadow: 2px 1px #888888;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+}
+
+.center {
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: center;
+    transform: translate(-50%, -50%)
+}
+
+.content {
+    background-color: black;
+    color: greenyellow;
+    max-width: 400px;
+    min-height: 400px;
+    max-height: 400px;
+    position: relative;
+    overflow-y: scroll;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.login {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myButton {
+    -moz-box-shadow: 0px 1px 0px 0px #fff6af;
+    -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+    background: -moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background: -webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background: -o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background: -ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23', GradientType=0);
+    background-color: #ffec64;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border: 1px solid #ffaa22;
+    display: inline-block;
+    cursor: pointer;
+    color: #333333;
+    font-family: Trebuchet MS;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 32px 76px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffee66;
+}
+
+.myButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+    background: -moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background: -webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background: -o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background: -ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64', GradientType=0);
+    background-color: #ffab23;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.hero-bkg-animated {
+    background: gray url('grey_variations.png') repeat 0 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+    padding-top: 120px;
+    box-sizing: border-box;
+    -webkit-animation: slide 20s linear infinite;
+    margin-bottom: 20px;
+}
+
+.hero-bkg-animated h1 {
+    font-family: sans-serif;
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -400px 0;
+    }
+}
+
+.home-contain {
+    padding: 0;
+    color: white;
+}
+
+.rows-margin {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.column-padding {
+    padding: 0;
+}
+
+.title {
+    color: black;
+}
+
+.card-header {
+    width: 400px;
+    height: 40px;
+    color: black;
+    background-color: gold;
+    font-weight: 500;
+    padding-bottom: 34px;
+    text-align: center;
+}
+
+.card {
+    width: 400px;
+    padding: 0;
+    border: none;
+}
+
+.hero-bkg-animated-button {
+    background: gray url('grey_variations.png') repeat 0 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    -webkit-animation: slide 20s linear infinite;
+    margin-bottom: 20px;
+}
+
+.hero-bkg-animated h1 {
+    font-family: sans-serif;
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -400px 0;
+    }
+}
+
+.info {
+    color: black;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+}
+
+.navbar {
+    background-color: gold;
+}
+
+#nav-text {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+html, body {
+    background-image: url("pexels-photo.png");
+}
+
+.btn {
+    background-color: gold;
+}
+
+.info-box {
+    width: 600px;
+    height: 500px;
+    background-color: lightgrey;
+    border-radius: 2px;
+}
